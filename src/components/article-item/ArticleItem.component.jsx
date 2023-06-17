@@ -3,8 +3,8 @@ import ReactMarkdown from 'react-markdown'
 import { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import postsArray from '../../utils/posts/posts.json'
+import Spinner from '../spinner/spinner.component'
 import './article.styles.scss'
-
 
 
 const ArticleItem = () => {
@@ -29,16 +29,20 @@ const ArticleItem = () => {
 
 
   return (
-    <Container sx={{marginTop: '140px'}}>
-      <div className='article'>
-        <img src={url} alt="" />
-      </div>
-      <Box sx={{marginY: '100px'}}>
-        <ReactMarkdown className='markdown'>
-            {post}
-        </ReactMarkdown>
-      </Box>
-    </Container>
+    <>
+      {!post ? <Spinner/> :
+      <Container sx={{marginTop: '140px'}}>
+        <div className='article'>
+          <img src={url} alt="" />
+        </div>
+        <Box sx={{marginY: '100px'}}>
+          <ReactMarkdown className='markdown'>
+              {post}
+          </ReactMarkdown>
+        </Box>
+      </Container>
+      }
+    </>
   )
 }
 

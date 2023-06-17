@@ -1,7 +1,9 @@
+import { useContext, useEffect, useState } from "react"
+import {ScreenContext} from '../../context/screen.context'
 import { Container, Typography } from "@mui/material"
 import { ReactMarkdown } from "react-markdown/lib/react-markdown"
+import Spinner from "../../components/spinner/spinner.component"
 import './bio.styles.scss'
-import { useEffect, useState } from "react"
 
 const bioContainerSx = {
   display: 'flex',
@@ -12,6 +14,7 @@ const bioContainerSx = {
 
 const Bio = () => {
   const [about, setAbout] = useState('');
+  const {isSmallScreen} = useContext(ScreenContext);
 
   useEffect(() => {
     import('../../posts/about-me.md').then(resp => {
@@ -23,17 +26,22 @@ const Bio = () => {
 
 
   return (
-    <Container maxWidth='md'  sx={bioContainerSx}>
-      <Typography variant="h3" component={'h3'} textAlign={'center'}>
-        Psicologa Sheridan
-      </Typography>
-      <div className="profile-img">
-        <img src="profile-blog.png" alt="" />
-      </div>
-      <ReactMarkdown className="about-profile">
-        {about}
-      </ReactMarkdown>
-    </Container>
+    <>
+      {
+      !about ? <Spinner/> :
+      <Container maxWidth='md'  sx={bioContainerSx}>
+        <Typography variant={isSmallScreen ? "h4" : "h3" } component={'h3'} textAlign={'center'}>
+          Psicologa Sheridan
+        </Typography>
+        <div className="profile-img">
+          <img src="profile-blog.png" alt="" />
+        </div>
+        <ReactMarkdown className="about-profile">
+          {about}
+        </ReactMarkdown>
+      </Container>
+      }
+    </>
   )
 }
 

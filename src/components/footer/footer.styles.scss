@@ -18,4 +18,17 @@
   .icon:hover {
     transform: translateY(-5px);
   }
+
+  @media (max-width: 601px) {
+    .instagram {
+      font-size: 65px;
+    }
+
+    .email {
+      font-size: 70px;
+    }
+  
+  }
+
+  
 }

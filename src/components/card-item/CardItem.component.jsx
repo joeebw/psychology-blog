@@ -6,13 +6,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
+import { useContext } from 'react';
+import { ScreenContext } from '../../context/screen.context';
 
 function CardItem({post}) {
+  const {isSmallScreen} = useContext(ScreenContext);
   const {title, description, blog, url} = post;
 
   return (
-    <Grid item xs={3}>
-      <Card sx={{height: '500px', position: 'relative'}}>
+    <Grid item xs={6} md={3}>
+      <Card sx={{height: isSmallScreen ? '600px' : '500px', position: 'relative'}}>
         <CardMedia
           component="img"
           alt="green iguana"
@@ -20,10 +23,10 @@ function CardItem({post}) {
           sx={{height: '200px', backgroundSize: 'cover'}}
         />
         <CardContent>
-          <Typography gutterBottom variant="h6" component="div">
+          <Typography gutterBottom variant={isSmallScreen ? "subtitle1"  : "h6"} component="div">
             {title}
           </Typography>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant={"body2"} color="text.secondary">
             {`${description.slice(0, 155)}...`}
           </Typography>
         </CardContent>

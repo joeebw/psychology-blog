@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { Routes, Route } from "react-router-dom"
 import Home from "./routes/home/Home.component"
+import Spinner from './components/spinner/spinner.component';
 
 
 function App() {
