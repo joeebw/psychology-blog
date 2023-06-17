@@ -1,0 +1,9 @@
+¡Hola! Soy Sheridan, psicóloga con enfoque en cognitivo conductual, y me complace darle la bienvenida a mi blog. Aquí, mi objetivo es compartir información relevante y útil sobre psicología, ya que es una disciplina que me apasiona profundamente. A través de este espacio, espero transmitir mi amor por la psicología y brindar recursos que puedan ayudarte en tu camino hacia el bienestar mental y emocional.
+
+A lo largo de mi carrera, me he comprometido a seguir aprendiendo y creciendo profesionalmente. Me mantengo actualizada el campo de la psicología cognitivo conductual para ofrecer el mejor apoyo y atención a mis pacientes. Creo firmemente en la importancia de mantenerme al día con los avances en mi campo, ya que esto me permite brindar un enfoque basado en la evidencia y adaptado a las necesidades individuales de cada persona que busca ayuda.
+
+En este blog, mi objetivo principal es explicar de manera sencilla y comprensible una amplia gama de temas relacionados con la psicología. Entiendo que los conceptos psicológicos pueden parecer abrumadores o difíciles de entender para algunas personas. Por eso, me esfuerzo en utilizar un lenguaje claro y accesible para asegurarme de que los lectores puedan comprender y aplicar la información en su vida cotidiana.
+
+Es importante destacar que, si bien este blog proporciona información valiosa y herramientas útiles, no reemplaza la consulta directa con un profesional de la salud mental. Si estás enfrentando un problema específico, te recomendaría buscar la ayuda de un psicólogo o terapeuta calificado. Mi objetivo aquí es brindar orientación general y conocimientos que puedan ser útiles, pero cada situación individual requiere una evaluación y tratamiento personalizados.
+
+Si decides trabajar conmigo, estaré encantada de acompañarte en tu camino.

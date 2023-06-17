@@ -1,0 +1,38 @@
+[
+  {
+    "title": "El poder transformador de la terapia",
+    "description": "En la búsqueda constante de bienestar y felicidad, a menudo nos encontramos con desafíos y obstáculos que pueden afectar nuestra salud mental y emocional",
+    "url": "https://images.unsplash.com/photo-1616740795271-abd6ce1a5a5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=416&q=80",
+    "blog": "post-1"
+  },
+  {
+    "title": "Establecer Límites Saludables en Tus Relaciones Personales",
+    "description": "Las relaciones personales desempeñan un papel fundamental en nuestras vidas, ya sea en el ámbito familiar, amistoso o romántico. Sin embargo, a veces podemos encontrarnos en situaciones en las que nos sentimos abrumados, agotados o invadidos por las demandas de los demás. En estos casos, establecer límites saludables se convierte en una necesidad vital",
+    "url": "https://images.unsplash.com/photo-1543933441-40fbd6b34481?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1039&q=80",
+    "blog": "post-2"
+  },
+  {
+    "title": "Cómo afrontar y superar la ansiedad social",
+    "description": "La ansiedad social es un desafío emocional común que muchas personas experimentan en diversas situaciones sociales. Puede dificultar la interacción con otros, generar miedo al juicio y limitar la participación en actividades sociales. Sin embargo, es posible aprender a afrontar y superar la ansiedad social. En este artículo, exploraremos estrategias efectivas para manejar y superar la ansiedad social",
+    "url": "https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+    "blog": "post-3"
+  },
+  {
+    "title": "Desarrollar Habilidades de Resiliencia para Enfrentar los Desafíos de la Vida",
+    "description": "La resiliencia es la capacidad de hacer frente y adaptarse de manera positiva ante los desafíos, adversidades y cambios que enfrentamos en la vida. Desarrollar habilidades de resiliencia nos permite mantenernos fuertes y recuperarnos más rápidamente de las dificultades, promoviendo así nuestro bienestar emocional y mental. En este artículo, exploraremos estrategias efectivas para desarrollar ",
+    "url": "https://images.unsplash.com/photo-1440114071841-493f350845eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+    "blog": "post-4"
+  },
+  {
+    "title": "La Importancia del Autocuidado",
+    "description": "El autocuidado es fundamental para mantener un equilibrio saludable entre nuestro cuerpo, mente y emociones. A menudo, nos ocupamos tanto de nuestras responsabilidades y de cuidar a los demás, que nos olvidamos de atender nuestras propias necesidades. Sin embargo, incorporar el autocuidado en nuestra rutina diaria es esencial para promover nuestro bienestar",
+    "url": "https://images.unsplash.com/photo-1554244933-d876deb6b2ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+    "blog": "post-5"
+  },
+  {
+    "title": "Establecer metas realistas y efectivas",
+    "description": "Establecer metas es fundamental para lograr el éxito y el crecimiento personal. Sin embargo, para que las metas sean efectivas, es importante que sean realistas y alcanzables. En este artículo, exploraremos estrategias prácticas para establecer metas que te impulsen hacia adelante, te motiven y te permitan",
+    "url": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1168&q=80",
+    "blog": "post-6"
+  }
+]
