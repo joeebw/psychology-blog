@@ -3,6 +3,7 @@ import {ScreenContext} from '../../context/screen.context'
 import { Container, Typography } from "@mui/material"
 import { ReactMarkdown } from "react-markdown/lib/react-markdown"
 import Spinner from "../../components/spinner/spinner.component"
+import profileImg from '../../assets/profile-blog.png'
 import './bio.styles.scss'
 
 const bioContainerSx = {
@@ -34,7 +35,7 @@ const Bio = () => {
           Psicóloga Sheridan
         </Typography>
         <div className="profile-img">
-          <img src="profile-blog.png" alt="" />
+          <img src={profileImg} alt="" />
         </div>
         <ReactMarkdown className="about-profile">
           {about}
