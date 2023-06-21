@@ -31,7 +31,7 @@ const Bio = () => {
       !about ? <Spinner/> :
       <Container maxWidth='md'  sx={bioContainerSx}>
         <Typography variant={isSmallScreen ? "h4" : "h3" } component={'h3'} textAlign={'center'}>
-          Psicologa Sheridan
+          Psicóloga Sheridan
         </Typography>
         <div className="profile-img">
           <img src="profile-blog.png" alt="" />

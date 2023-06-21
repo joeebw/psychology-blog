@@ -40,7 +40,9 @@ function Footer() {
             <Typography variant={isSmallScreen ? 'h6' :'h5'} component={'h5'} fontWeight={500}>
               Instagram
             </Typography>
-            <InstagramIcon className='icon instagram'/>
+            <a href="https://www.instagram.com/psic.sheridanpacheco/" target='_blank'>
+              <InstagramIcon className='icon instagram'/>
+            </a>
           </Grid>
           <Grid 
             item 
@@ -50,7 +52,9 @@ function Footer() {
             <Typography variant={isSmallScreen ? 'h6' :'h5'} component={'h5'} fontWeight={500}>
               Email
             </Typography>
-            <MailOutlineIcon className='icon email'/>
+            <a href="mailto:sheriduuun@gmail.com">
+              <MailOutlineIcon className='icon email'/>
+            </a>
           </Grid>
         </Grid>
       </Container>
