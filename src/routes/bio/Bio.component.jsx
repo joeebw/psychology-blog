@@ -30,8 +30,7 @@ const Bio = () => {
 
   return (
     <>
-      {
-      !about ? <Spinner/> :
+      <Spinner isReady={about}/> 
       <Container maxWidth='md'  sx={bioContainerSx}>
         <Typography variant={isSmallScreen ? "h4" : "h3" } component={'h3'} textAlign={'center'}>
           Psicóloga Sheridan
@@ -43,7 +42,6 @@ const Bio = () => {
           {about}
         </ReactMarkdown>
       </Container>
-      }
     </>
   )
 }

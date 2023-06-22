@@ -1,20 +1,15 @@
 import CircularProgress from '@mui/material/CircularProgress';
 import Box from '@mui/material/Box';
+import './spinner.styles.scss'
 
-const styleSpinner = {
-  display: 'flex', 
-  justifyContent: 'center', 
-  alignItems: 'center', 
-  height: '100vh', 
-  width: '100vw',
-  fontSize: '4rem' 
-}
-
-const Spinner = () => {
+const Spinner = ({isReady}) => {
   return (
-  <Box sx={styleSpinner}>
+  <div 
+    className='spinner' 
+    style={{display: isReady && 'none'}}
+    >
     <CircularProgress size={80} />
-  </Box>
+  </div>
   )
 }
 
