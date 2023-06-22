@@ -21,7 +21,9 @@ const Bio = () => {
     import('../../posts/about-me.md').then(resp => {
       fetch(resp.default)
       .then(response => response.text())
-      .then(text => setAbout(text))
+      .then(text => {
+        setAbout(text);
+      })
     })
   }, [])
 
