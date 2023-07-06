@@ -15,6 +15,7 @@ const bioContainerSx = {
 
 const Bio = () => {
   const [about, setAbout] = useState('');
+  const [isReady, setIsReady] = useState(false);
   const {isSmallScreen} = useContext(ScreenContext);
 
   useEffect(() => {
@@ -23,6 +24,9 @@ const Bio = () => {
       .then(response => response.text())
       .then(text => {
         setAbout(text);
+        setTimeout(() => {
+          setIsReady(true);
+        }, 500)
       })
     })
   }, [])
@@ -30,7 +34,7 @@ const Bio = () => {
 
   return (
     <>
-      <Spinner isReady={about}/> 
+      <Spinner isReady={isReady}/> 
       <Container maxWidth='md'  sx={bioContainerSx}>
         <Typography variant={isSmallScreen ? "h4" : "h3" } component={'h3'} textAlign={'center'}>
           Psicóloga Sheridan

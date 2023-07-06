@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState } from "react";
 import { useTheme, useMediaQuery } from '@mui/material'
 
 export const ScreenContext = createContext({
