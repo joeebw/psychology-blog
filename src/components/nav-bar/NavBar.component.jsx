@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Footer from "../../components/footer/Footer.component";
-import logo from "../../assets/Logo.png";
+import logo from "../../assets/Logo-min.png";
 import { Typography } from "@mui/material";
 
 const buttonStyle = {
