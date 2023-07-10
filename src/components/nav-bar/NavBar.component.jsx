@@ -9,7 +9,7 @@ import { Typography } from "@mui/material";
 
 const buttonStyle = {
   fontFamily: "Poppins, sans-serif",
-  color: "#ffffff",
+  color: "var(--secondary-color)",
 };
 
 export default function NavBar() {
@@ -27,7 +27,12 @@ export default function NavBar() {
             }}
           >
             <Box style={{ width: "80px", height: "80px", overflow: "hidden" }}>
-              <Link to={"/"} style={{ textDecoration: "none" }}>
+              <Link
+                to={"/"}
+                style={{
+                  textDecoration: "none",
+                }}
+              >
                 <img
                   src={logo}
                   alt=""

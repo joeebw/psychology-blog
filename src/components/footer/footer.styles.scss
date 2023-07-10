@@ -11,7 +11,8 @@
   }
 
   .icon {
-    transition:transform 0.1s ease-in-out;
+    color: var(--secondary-color);
+    transition: transform 0.1s ease-in-out;
     cursor: pointer;
   }
 
@@ -27,8 +28,5 @@
     .email {
       font-size: 70px;
     }
-  
   }
-
-  
 }
