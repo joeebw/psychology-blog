@@ -16,6 +16,7 @@ const bioContainerSx = {
 const Bio = () => {
   const [about, setAbout] = useState("");
   const [isReady, setIsReady] = useState(false);
+  const [isLoaded, setIsLoaded] = useState(false);
   const { isSmallScreen } = useContext(ScreenContext);
 
   useEffect(() => {
@@ -28,8 +29,15 @@ const Bio = () => {
     });
   }, []);
 
+  // when the image and the markdown are loaded then show the content
+  useEffect(() => {
+    if (isLoaded && about) {
+      setIsReady(true);
+    }
+  }, [isReady, about]);
+
   const handleOnLoad = () => {
-    setIsReady(true);
+    setIsLoaded(true);
   };
 
   return (
