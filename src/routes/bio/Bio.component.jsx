@@ -24,12 +24,13 @@ const Bio = () => {
         .then((response) => response.text())
         .then((text) => {
           setAbout(text);
-          setTimeout(() => {
-            setIsReady(true);
-          }, 500);
         });
     });
   }, []);
+
+  const handleOnLoad = () => {
+    setIsReady(true);
+  };
 
   return (
     <>
@@ -43,7 +44,7 @@ const Bio = () => {
           Psicóloga Sheridan
         </Typography>
         <div className="profile-img">
-          <img src={profileImg} alt="" />
+          <img src={profileImg} onLoad={handleOnLoad} />
         </div>
         <ReactMarkdown className="about-profile">{about}</ReactMarkdown>
       </Container>

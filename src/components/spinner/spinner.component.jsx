@@ -1,16 +1,12 @@
-import CircularProgress from '@mui/material/CircularProgress';
-import Box from '@mui/material/Box';
-import './spinner.styles.scss'
+import CircularProgress from "@mui/material/CircularProgress";
+import "./spinner.styles.scss";
 
-const Spinner = ({isReady}) => {
+const Spinner = ({ isReady }) => {
   return (
-  <div 
-    className='spinner' 
-    style={{display: isReady && 'none'}}
-    >
-    <CircularProgress size={80} />
-  </div>
-  )
-}
+    <div className="spinner" style={{ display: isReady && "none" }}>
+      <CircularProgress size={80} />
+    </div>
+  );
+};
 
-export default Spinner
+export default Spinner;
