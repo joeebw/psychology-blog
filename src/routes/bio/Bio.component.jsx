@@ -42,7 +42,7 @@ const Bio = () => {
 
   return (
     <>
-      <Spinner isReady={isReady} />
+      {!isReady && <Spinner />}
       <Container maxWidth="md" sx={bioContainerSx}>
         <Typography
           variant={isSmallScreen ? "h4" : "h3"}

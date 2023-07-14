@@ -1,9 +1,9 @@
 import CircularProgress from "@mui/material/CircularProgress";
 import "./spinner.styles.scss";
 
-const Spinner = ({ isReady }) => {
+const Spinner = () => {
   return (
-    <div className="spinner" style={{ display: isReady && "none" }}>
+    <div className="spinner">
       <CircularProgress size={80} />
     </div>
   );
