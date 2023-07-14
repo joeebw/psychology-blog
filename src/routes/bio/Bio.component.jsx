@@ -29,12 +29,12 @@ const Bio = () => {
     });
   }, []);
 
-  // when the image and the markdown are loaded then show the content
+  // * when the image and the markdown are loaded then show the content
   useEffect(() => {
     if (isLoaded && about) {
       setIsReady(true);
     }
-  }, [isReady, about]);
+  }, [isLoaded, about]);
 
   const handleOnLoad = () => {
     setIsLoaded(true);
